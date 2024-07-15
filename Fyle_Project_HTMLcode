@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section id="main-section">
+        <div class="container pt-5 pb-5 ml-5">
+            <div class="row">
+                <div class="col-6 ">
+                    <div class="content-container mt-5">
+                        <h4 class="text-danger section-1-mini-head">AWARD WINNING</h4>
+                        <h1 class="section-1-heading">DIGITAL MARKETING AGENCY</h1>
+                        <p class="section-1-para">
+                            In the section 'OUR PROJECT",
+                            the image on the left should keep changing depending on the
+                            content on the right.
+                        </p>
+                        <!-- contact us button starts here -->
+
+                        <div>
+                            <button type="button" class="custom-button btn btn-danger contact-us-btn" data-toggle="modal" data-target="#exampleModal">
+                                CONTACT US
+                            </button>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog mt-5">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title thanking-customers-section-modal-title talk-to-us" id="exampleModalLabel">
+                                                Talk to us
+                                            </h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <form class="form-control p-3 submit-form">
+                                            <input type="email" id="email" class="email m-2  shadow-sm" placeholder="Work email*" /><br />
+                                            <input type="text" id="firstName" class="first-name  m-2 shadow-sm" placeholder="First Name*" />
+                                            <input type="text" id="lastName" class="last-name m-2 shadow-sm" placeholder="Last Name*" /><br />
+                                            <div class="terms-container mt-2">
+                                                <div class="checkbox-container">
+                                                    <input type="checkbox" id="checkbox" class="mr-2 mt-0 checkbox-item" />
+                                                </div>
+                                                <label for="checkbox" class="label-content">
+                                                    I agree to Fyle's terms and conditions, and provide consent
+                                                    to send me communication
+                                                </label>
+                                            </div>
+
+                                        </form>
+                                        <br />
+
+
+                                        <div class="modal-footer modal-btn-container">
+                                            <button type="button" class="btn btn-danger modal-contact-btn" id="contactUsBtn">
+                                                Contact Us
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- contact us button ends here-->
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="section-1-image-container">
+                        <img src="https://res.cloudinary.com/dqzf8y0bc/image/upload/v1720863306/Screenshot_2024-07-13_145803_xcg0dn.png" class="section-1-image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Bala Krishna COde-->
+
+    <div class="container container-1 pt-5 ml-5">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <p class="What_We_Do"> WHAT WE DO</p>
+                <div class="d-flex flex-row Service">
+                    <h1 class="Heading-Services"> SERVICES PROVIDE FOR YOU</h1>
+                    <p class="Paragraph-services">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum </p>
+                </div>
+                <div class="row section2-images-cont">
+                    <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+
+                        <div class="image-box">
+                            <img src="https://res.cloudinary.com/dqzf8y0bc/image/upload/v1721023115/Screenshot_2024-07-15_112611_mm2lhp.png" class="section2-image" alt="Image 3">
+                            <div class="overlay">
+                                <a href="https://www.fylehq.com/" target="_blank" class="read-more">
+                                    <div class="code-icon">
+                                        <i class="fa-solid fa-code"></i>
+                                    </div>
+                                    <h1 class="web-head">Web Development</h1>
+                                    <p class="web-para">Web Development is one of the essentila skill that every programmer should have</p>
+                                    <button class="read-more-btn">READ MORE --></button>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+
+                        <div class="image-box">
+                            <img src="https://res.cloudinary.com/dqzf8y0bc/image/upload/v1721023212/Screenshot_2024-07-15_112633_vgvug8.png" class="section2-image" alt="Image 3">
+                            <div class="overlay">
+                                <a href="https://www.fylehq.com/" target="_blank" class="read-more">
+                                    <div class="code-icon">
+                                        <i class="fa-solid fa-code"></i>
+                                    </div>
+                                    <h1 class="web-head">Web Development</h1>
+                                    <p class="web-para">Web Development is one of the essentila skill that every programmer should have</p>
+                                    <button class="read-more-btn">READ MORE --></button>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+
+                        <div class="image-box">
+                            <img src="https://res.cloudinary.com/dqzf8y0bc/image/upload/v1664149458/cld-sample-4.jpg" class="section2-image" alt="Image 3">
+                            <div class="overlay">
+                                <a href="https://www.fylehq.com/" target="_blank" class="read-more">
+                                    <div class="code-icon">
+                                        <i class="fa-solid fa-code"></i>
+                                    </div>
+                                    <h1 class="web-head">Web Development</h1>
+                                    <p class="web-para">Web Development is one of the essentila skill that every programmer should have</p>
+                                    <button class="read-more-btn">READ MORE --></button>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+
+                        <div class="image-box">
+                            <img src="https://res.cloudinary.com/dqzf8y0bc/image/upload/v1721023294/Screenshot_2024-07-15_112654_zyd7sj.png" class="section2-image" alt="Image 3">
+                            <div class="overlay">
+                                <a href="https://www.fylehq.com/" target="_blank" class="read-more">
+                                    <div class="code-icon">
+                                        <i class="fa-solid fa-code"></i>
+                                    </div>
+                                    <h1 class="web-head">Web Development</h1>
+                                    <p class="web-para">Web Development is one of the essentila skill that every programmer should have</p>
+                                    <button class="read-more-btn">READ MORE --></button>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- section -3-->
+    <div class="container container-2 pb-5 ml-5">
+        <div class="row">
+            <div class="col-12">
+                <p class="Our-project"> OUR PROJECT </p>
+                <h1 class="Why-We-Are-Best"> WHY WE ARE BEST</h1>
+            </div>
+            <div class="row d-flex flex-row w-100">
+                <div class="col-7 col-sm-7 col-md-7 col-lg-7 col-xl-7">
+                    <img src="https://res.cloudinary.com/dqzf8y0bc/image/upload/v1721024165/Screenshot_2024-07-15_114540_y6f6bh.png" id="imageChange" class="Image-Our-project">
+                </div>
+                <div class="col-5 col-sm-5 col-md-5 col-lg-5 col-xl-5">
+                    <div class="d-flex flex-column">
+                        <div Clas="Card_of_data" id="card1">
+                            <h1 class="Head-card"> Genderless Kei - Japan's </h1>
+                            <p class="para-card"> sort to launch on the manufacturer's now A330neo aircraft in 2017, it's offering lots ofto launch on the manufacturer's now A330neo aircraft in 2017, it's offering lots of </p>
+                        </div>
+                        <div class="card-2" id="card2">
+                            <h1 class="Head-card"> Genderless Kei - Japan's </h1>
+                            <p class="para-card"> sort to launch on the manufacturer's now A330neo aircraft in 2017, it's offering lots ofto launch on the manufacturer's now A330neo aircraft in 2017, it's offering lots of </p>
+                        </div>
+                        <div Clas="Card_of_data" id="card3">
+                            <h1 class="Head-card"> Genderless Kei - Japan's </h1>
+                            <p class="para-card"> sort to launch on the manufacturer's now A330neo aircraft in 2017, it's offering lots ofto launch on the manufacturer's now A330neo aircraft in 2017, it's offering lots of </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container container-3 ml-5">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                <p class="Our-project pt-3"> EXPERTS GROWTH </p>
+                <h1 class="Why-We-Are-Best"> OUR COMPANY GROWTH</h1>
+            </div>
+            <div class="row d-flex flex-row w-100">
+                <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                    <div class=" d-flex flex-column Card-Love">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-heart-fill Like_Symbol w-100" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314" />
+                        </svg>
+                        <h1 class="Likes"> 199 +</h1>
+                        <p class="Saticfied"> Satisfied Customers</p>
+                    </div>
+                </div>
+                <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                    <div class=" d-flex flex-column Card-Love">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-alarm-fill w-100 Like_Symbol " viewBox="0 0 16 16">
+                            <path d="M6 .5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1H9v1.07a7.001 7.001 0 0 1 3.274 12.474l.601.602a.5.5 0 0 1-.707.708l-.746-.746A6.97 6.97 0 0 1 8 16a6.97 6.97 0 0 1-3.422-.892l-.746.746a.5.5 0 0 1-.707-.708l.602-.602A7.001 7.001 0 0 1 7 2.07V1h-.5A.5.5 0 0 1 6 .5m2.5 5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9zM.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.04 8.04 0 0 0 .86 5.387M11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.04 8.04 0 0 0-3.527-3.527" />
+                        </svg>
+                        <h1 class="Likes"> 1591+</h1>
+                        <p class="Saticfied"> Days of operation</p>
+                    </div>
+                </div>
+                <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                    <div class=" d-flex flex-column Card-Love">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-check-circle-fill w-100 Like_Symbol " viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z" />
+                        </svg>
+                        <h1 class="Likes"> 283 +</h1>
+                        <p class="Saticfied"> Complete Project</p>
+                    </div>
+                </div>
+                <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                    <div class=" d-flex flex-column Card-Love">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-trophy-fill Trophy-Symbol w-100" viewBox="0 0 16 16">
+                            <path d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5q0 .807-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33 33 0 0 1 2.5.5m.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935m10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935" />
+                        </svg>
+                        <h1 class="Likes"> 75 +</h1>
+                        <p class="Saticfied"> Win Awards</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
