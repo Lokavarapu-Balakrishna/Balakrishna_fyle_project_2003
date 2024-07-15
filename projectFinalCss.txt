@@ -1,56 +1,341 @@
-let contactUsBtn = document.getElementById("contactUsBtn");
-let formDetails = {
-    email: "",
-    firstName: "",
-    lastName: ""
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    box-sizing: border-box;
 }
-let url = "https://getform.io/f/awngnpxb";
-let options = {
-    method: "POST",
-    headers: {
-        "content-type": "application/json",
-        Accept: "application/json"
-    },
-    body: JSON.stringify(formDetails)
+
+.section-1-image {
+    width: 100%;
+    height: 100%;
 }
-contactUsBtn.onclick = function() {
-    let email = document.getElementById("email").value;
-    let firstName = document.getElementById("firstName").value;
-    let lastName = document.getElementById("lastName").value;
-    formDetails.email = email;
-    formDetails.firstName = firstName;
-    formDetails.lastName = lastName;
-    fetch(url, options)
-        .then(function(response) {
-            return response.json()
-        })
-        .then(function(data) {
-            console.log(data)
-        })
+
+.section-1-image-container {
+    height: 100%;
+    width: 100%;
+}
+
+.section-1-heading {
+    font-size: 40px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.content-container {
+
+
+    min-width: 100px;
+}
+
+.contact-us-btn {
+    border-radius: 0px;
+    height: 50px;
+    width: 150px;
+}
+
+.talk-to-us {
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.submit-form {
+    min-height: 150px;
+}
+
+.model-contact-btn {
+    flex-grow: 1;
+}
+
+.modal-btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.terms-container {
+    display: flex;
+    flex-direction: row;
 
 }
 
-let card1 = document.getElementById("card1")
-let card2 = document.getElementById("card2")
-let card3 = document.getElementById("card3")
-let imageChange = document.getElementById("imageChange");
-
-card1.onclick = function() {
-    card1.style.backgroundColor = "red";
-    card2.style.backgroundColor = "white";
-    card3.style.backgroundColor = "white";
-    imageChange.src = "https://res.cloudinary.com/dqzf8y0bc/image/upload/v1721024783/Screenshot_2024-07-15_115559_i6rytn.png";
+.checkbox-item {
+    align-self: flex-start;
+    border: 2px solid red;
+    background-color: red;
 }
 
-card2.onclick = function() {
-    card1.style.backgroundColor = "white";
-    card2.style.backgroundColor = "red";
-    card3.style.backgroundColor = "white";
-    imageChange.src = "https://res.cloudinary.com/dqzf8y0bc/image/upload/v1721024165/Screenshot_2024-07-15_114540_y6f6bh.png";
+.label-content {
+    font-size: 12px;
+    font-family: "Roboto";
+
+
 }
-card3.onclick = function() {
-    card1.style.backgroundColor = "white";
-    card2.style.backgroundColor = "white";
-    card3.style.backgroundColor = "red";
-    imageChange.src = "https://res.cloudinary.com/dqzf8y0bc/image/upload/v1721024792/Screenshot_2024-07-15_115522_e5jxcl.png";
+
+/* .checkbox-container{
+    border-color:red;
+    border-style:solid;
+} */
+/* Bala Krishna COde*/
+
+.container-1 {
+    background-color: #F6F5F5;
+    padding: 40px;
+    width: 100vw;
+    height: 90%;
+    margin-bottom: 0px;
+}
+
+.What_We_Do {
+    font-size: 13px;
+    color: #f52954;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.Service-containe {
+    Margin: 5px;
+    padding: 10px;
+}
+
+.Heading-Services {
+    color: #000000;
+    font-weight: bold;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.Paragraph-services {
+    color: #000000;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.section2-images-cont {
+    display: flex;
+    flex-direction: row;
+
+    padding: 5px;
+}
+
+.section2-image {
+    height: 100%;
+    width: 100%;
+    margin-right: 5px;
+}
+
+.container-2 {
+    background-color: #F6F8F8;
+    padding: 3px;
+    margin-left: 3px;
+    width: 100%;
+    height: 100%;
+}
+
+.Our-project {
+    text-align: center;
+    font-size: 13px;
+    color: #f52954;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.Why-We-Are-Best {
+    text-align: center;
+    color: #000000;
+    font-weight: bold;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.Image-Our-project {
+    padding: 10px;
+    margin-left: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.Card_of_data {
+    background-color: #F6F5F8;
+    margin: 10px;
+    height: 60%;
+    width: 100%;
+    padding: 10px;
+}
+
+.Head-card {
+    font-family: "Bree Serif";
+    font-size: 10px;
+    font-weight: bold;
+    color: #000000;
+    padding: 10px;
+}
+
+.para-card {
+    color: #111111;
+    font-family: "Roboto";
+    font-size: 8px;
+    padding: 10px;
+}
+
+.card-2 {
+    background-color: #f44336;
+    height: 100%;
+    width: 100%;
+}
+
+.container-3 {
+    background-color: #eeeeee;
+    padding: 5px;
+    margin-left: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.Card-Love {
+    background-color: #f3f6f4;
+    padding: 5px;
+    margin-top: 25px;
+}
+
+.Likes {
+    text-align: center;
+    color: #000000;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 30px;
+}
+
+.Saticfied {
+    text-align: center;
+    color: #111111;
+    padding: 2px;
+    font-size: 15px;
+    margin-top: 10px;
+    font-family: "Roboto";
+}
+
+.Like_Symbol {
+    padding: 5px;
+    text-align: center;
+    color: #f0224d;
+    font-size: 100px;
+}
+
+.Trophy-Symbol {
+    padding: 5px;
+    text-align: center;
+    color: #f0224d;
+    font-size: 100px;
+}
+
+/* new code*/
+
+
+.image-box {
+    position: relative;
+    width: 100px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+}
+
+.image-box .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image-box:hover img {
+    opacity: 0;
+}
+
+.image-box:hover .overlay {
+    opacity: 1;
+}
+
+.read-more {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+    background-color: red;
+}
+
+/* new-code*/
+.web-head {
+    font-size: 8px;
+    background-color: red;
+    font-family: "Roboto";
+    color: white;
+}
+
+.web-para {
+    font-size: 5px;
+    background-color: red;
+    font-family: "Roboto";
+    color: white;
+    margin-bottom: 0px;
+}
+
+.read-more {
+    background-color: red;
+}
+
+.code-icon {
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    background-color: red;
+}
+
+.read-more-btn {
+    font-size: 5px;
+    background-color: white;
+    color: red;
+    font-family: "Roboto";
+    font-weight: bold;
+    border-width: 0px;
+    height: 20px;
+    width: 50px;
+    margin-top: 0px;
+}
+
+@media (max-width:800px) {
+    .section-1-heading {
+        font-size: 20px;
+    }
+
+    .section-1-mini-head {
+        font-size: 15px;
+    }
+
+    .section-1-para {
+        font-size: 10px;
+    }
+
+    .contact-us-btn {
+        height: 28px;
+        width: 95px;
+        font-size: 10px;
+    }
 }
